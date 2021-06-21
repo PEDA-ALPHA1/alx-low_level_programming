@@ -16,8 +16,7 @@ putchar(x);
 }
 for (x = 'A'; x <= 'Z'; x++)
 {
-putchar(x);
+putchar(x'\n');
 }
-putchar ('\n');
 return (0);
 }
