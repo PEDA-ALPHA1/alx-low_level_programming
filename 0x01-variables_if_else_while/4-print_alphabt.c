@@ -12,11 +12,12 @@ int main(void)
 char x;
 for (x = 'a'; x <= 'z'; x++)
 {
-putchar(x);
-}
-for (x = 'A'; x <= 'Z'; x++)
+if ((x == 'e') || (x == 'q'))
 {
+x++;
+}
 putchar(x);
 }
+putchar ('\n');
 return (0);
 }
