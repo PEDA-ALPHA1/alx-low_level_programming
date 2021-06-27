@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * function that prints alphabets in lowercase
- * use prototype void print_alphabet(void)
- * only use _putchar
- * Return: 0
- */
+* function that prints alphabets in lowercase
+* use prototype void print_alphabet(void)
+* only use _putchar
+* Return: 0
+*/
 void print_alphabet(void)
 {
 int x;
