@@ -4,7 +4,7 @@
 * function that prints alphabets in lowercase
 * use prototype void print_alphabet(void)
 * only use _putchar
-* Return: 0
+* Return: Always void
 */
 void print_alphabet(void)
 {
