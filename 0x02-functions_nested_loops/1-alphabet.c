@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 * main - Entry point
-* function that prints alphabets in lowercase
+* print_alphabet - function that prints alphabets in lowercase
 * use prototype void print_alphabet(void)
 * only use _putchar
 * Return: Always void
