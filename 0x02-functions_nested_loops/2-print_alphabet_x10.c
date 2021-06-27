@@ -4,7 +4,7 @@
 * function that prints x10 the alphabets in lowercase
 *Return: Always void
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 int i;
 int j;
