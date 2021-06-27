@@ -1,11 +1,9 @@
 #include "holberton.h"
 /**
-* main - Entry point
-* print_alphabet - function that prints alphabets in lowercase
-* use prototype void print_alphabet(void)
-* only use _putchar
-* Return: Always void
-*/
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
+ *
+ * Return: Always void.
+ */
 void print_alphabet(void)
 {
 int x;
