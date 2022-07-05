@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * _isalpha - Print alphabet in lowercase 10 times
 * Return: 0
