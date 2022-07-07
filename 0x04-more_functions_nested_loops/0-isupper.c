@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * checks for uppercase character.
- * use prototype: int _isupper(int c);
- * return 1 if c is uppercase
- * return 0 otherwise
+ * _isupper - Function prototype
+ * @c: int type character
+ * Return: 1 if c is uppercase else return 0
  */
-int _isupper(int x)
+int _isupper(int c)
 {
-	if (x >= 65 && x <=90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
