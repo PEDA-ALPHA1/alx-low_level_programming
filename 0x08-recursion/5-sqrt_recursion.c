@@ -4,7 +4,7 @@
  *   * @n: n
  *    * @root: test this root
  *     * Return: natural square root, or -1 if not natural root
- *      */
+ *      **/
 int find_root(int n, int root)
 {
 	if (root * root > n)
@@ -17,7 +17,7 @@ int find_root(int n, int root)
  *  * _sqrt_recursion - find natural square root of n
  *   * @n: n
  *    * Return: natural square root, or -1 if not natural root
- *     */
+ *     **/
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
