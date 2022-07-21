@@ -5,7 +5,7 @@
  * * @head: index starting from left of string
  * * @tail: index starting from right of string, moving backwards
  * * Return: 1 if palindrome, 0 if not
- * */
+ * **/
 
 int compare(char *head, char *tail)
 {
@@ -22,7 +22,7 @@ int compare(char *head, char *tail)
  * * _strlen - find length of string to access last index
  * * @s: string
  * * Return: length
- * */
+ * **/
 
 int _strlen(char *s)
 {
@@ -37,7 +37,7 @@ int _strlen(char *s)
  * * is_palindrome - check if palindrome
  * * @s: string to check
  * * Return: 1 if palindrome, 0 if not
- * */
+ * **/
 
 int is_palindrome(char *s)
 {
