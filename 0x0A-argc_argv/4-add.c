@@ -11,6 +11,7 @@
 bool is_num(char *argvv)
 {
 	int j = 0;
+
 	for (j = 0; argvv[j]; j++)
 	{
 		if (!(argvv[j] >= '0' && argvv[j] <= '9'))
@@ -29,6 +30,7 @@ int main(int argc, char *argv[])
 {
 	int i = 1;
 	int sum = 0;
+
 	/* validate input */
 	if (argc == 1)
 	{
