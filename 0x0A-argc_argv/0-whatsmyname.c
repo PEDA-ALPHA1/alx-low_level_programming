@@ -6,9 +6,11 @@
  *If program is renamed, it will print the new name
  * Without having to compile again
  * Also, do not remove the path before the name of the program
+ * @argc: Argument counter
+ * @argv: Argument vector
  * Return: Always 0
  * **/
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc > 0)
 	{
