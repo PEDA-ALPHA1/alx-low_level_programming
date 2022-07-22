@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
  * main - Entry point
  * Description: Program that prints its name Followed by a new line
@@ -11,6 +11,8 @@
 int main (int argc, char *argv[])
 {
 	if (argc > 0)
-	printf("%s\n", argv[0]);
+	{
+		printf("%s\n", argv[0]);
+	}
 	return (0);
 }
