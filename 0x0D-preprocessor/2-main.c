@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Print the name of the file compiled
- * @argc: Argument counter
- * @argv: Argument vector
+ * main - Prints the name of the file it was compiled from
  * Return: Always 0
  * **/
 int main(void)
