@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "lists.h"
+#include <stdlib.h>
 /**
  * print_list - Function prototype
  * @h: Argument of type pointer list_t
