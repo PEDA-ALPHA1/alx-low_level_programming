@@ -1,12 +1,13 @@
-#include <stdio.h>
 #include "lists.h"
+#include <stdio.h>
 #include <stdlib.h>
+
 /**
- * print_list - Function prototype
- * @h: Argument of type pointer list_t
- * Return: size_t
- * Description: Prints all the elements of a list_t list
- * **/
+ * print_list - prints all elements of a list_t list
+ * @h: strings inputted
+ *
+ * Return: number of nodes
+ */
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
@@ -19,7 +20,7 @@ size_t print_list(const list_t *h)
 		{
 			printf("[%d] %s\n", h->len, h->str);
 		}
-
+		
 		h = h->next;
 		count++;
 	}
