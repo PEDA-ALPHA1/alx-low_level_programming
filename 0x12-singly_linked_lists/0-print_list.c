@@ -3,7 +3,7 @@
 /**
  * print_list - Function prototype
  * @h: Argument of type pointer list_t
- * return size_t
+ * Return: size_t
  * Description: Prints all the elements of a list_t list
  * **/
 size_t print_list(const list_t *h)
